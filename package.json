@@ -1,0 +1,15 @@
+{
+  "name": "Color-Pop-Atom-Syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Colorful theme on dark background",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/jamienhare/Color-Pop-Atom-Syntax",
+  "license": "",
+  "engines": {
+    "atom": ">=1.13.0"
+  }
+}
