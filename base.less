@@ -61,7 +61,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--comment {
-  color: @green;
+  color: @purple;
 }
 
 .syntax--entity {
@@ -71,7 +71,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @light-blue;
   }
 }
 
@@ -103,15 +103,15 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   color: @light-orange;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @light-purple;
   }
 
   &.syntax--numeric {
-    color: @light-green;
+    color: @light-yellow;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @light-purple;
   }
 
   &.syntax--other.syntax--symbol {
@@ -120,10 +120,10 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--variable {
-  color: @cyan;
+  color: @yellow;
 
   &.syntax--interpolation {
-    color: darken(@cyan, 10%);
+    color: darken(@blue, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -141,7 +141,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @light-blue;
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
@@ -190,11 +190,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--support {
   &.syntax--class {
-    color: @light-green;
+    color: @blue;
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @orange;
 
     &.syntax--any-method {
       color: @light-gray;
@@ -216,7 +216,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--name.syntax--tag {
-    color: @green;
+    color: @light-red;
   }
 
   &.syntax--other.syntax--attribute-name {
@@ -257,7 +257,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @green;
+    color: @red;
     font-weight: bold;
   }
 
@@ -266,7 +266,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @orange;
   }
 
   &.syntax--italic {
@@ -275,11 +275,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @blue;
+    color: @yellow;
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @blue;
   }
 
   &.syntax--list {
@@ -291,14 +291,14 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @yellow;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @light-orange;
   }
 }
 
